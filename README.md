@@ -1,4 +1,5 @@
 ## MDNF: Multi-Diffusion-Nets for Neural Fields on Meshes<br>
+
 ![Teaser image](./docs/text2mesh_ninja_4ex.jpg)
 Avigail Cohen Rimon, Tal Shnitzer, Mirela Ben Chen
 <br>https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70188<br>
@@ -75,7 +76,7 @@ python uv_learning_train.py --base_sigma 5 --n_layer_net 5 --siren_w0 200 --eval
 ---
 
 ## Citation
-```bibtex
+```
 @inproceedings{rimon2025mdnf,
   title={MDNF: Multi-Diffusion-Nets for Neural Fields on Meshes},
   author={Rimon, Avigail Cohen and Shnitzer, Tal and Chen, Mirela Ben},
