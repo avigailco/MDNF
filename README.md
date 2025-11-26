@@ -1,4 +1,4 @@
-## MDNF: Multi-Diffusion-Nets for Neural Fields on Meshes<br>
+## MDNF: Multi-Diffusion-Nets for Neural Fields on Meshes
 
 ![Teaser image](./docs/text2mesh_ninja_4ex.jpg)
 Avigail Cohen Rimon, Tal Shnitzer, Mirela Ben Chen
