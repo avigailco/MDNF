@@ -1,9 +1,9 @@
-# FRIDU: Functional Map Refinement with Guided Image Diffusion
+# MDNF: Multi-Diffusion-Nets for Neural Fields on Meshes
 
-![Teaser image](./docs/FRIDU_illustration.jpg)
+![Teaser image](./docs/text2mesh_ninja_4ex.jpg)
 
-Avigail Cohen Rimon, Mirela Ben Chen, Or Litany
-<br>https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70203 <br>
+Avigail Cohen Rimon, Tal Shnitzer, Mirela Ben Chen
+<br>https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70188 <br>
 
 Abstract: *We propose a novel approach for refining a given correspondence map between two shapes. A correspondence map represented
 as a **functional map**, namely a change of basis matrix, can be additionally treated as a **2D image**. With this perspective, we
@@ -14,11 +14,6 @@ additionally encourage different functional map objectives, such as orthogonalit
 operator. We show that our approach is competitive with state-of-the-art methods of map refinement and that guided diffusion
 models provide a promising pathway to functional map processing.*
 
-## MDNF: Multi-Diffusion-Nets for Neural Fields on Meshes
-
-![Teaser image](./docs/text2mesh_ninja_4ex.jpg)
-Avigail Cohen Rimon, Tal Shnitzer, Mirela Ben Chen
-<br>https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70188<br>
 
 Abstract: *We propose a novel framework for representing neural fields on triangle meshes that is multi-resolution across both spatial
 and frequency domains. Inspired by the Neural Fourier Filter Bank (NFFB), our architecture decomposes the spatial and
