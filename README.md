@@ -1,3 +1,19 @@
+# FRIDU: Functional Map Refinement with Guided Image Diffusion
+
+![Teaser image](./docs/FRIDU_illustration.jpg)
+
+Avigail Cohen Rimon, Mirela Ben Chen, Or Litany
+<br>https://onlinelibrary.wiley.com/doi/pdf/10.1111/cgf.70203 <br>
+
+Abstract: *We propose a novel approach for refining a given correspondence map between two shapes. A correspondence map represented
+as a **functional map**, namely a change of basis matrix, can be additionally treated as a **2D image**. With this perspective, we
+train an image diffusion model directly in the space of functional maps, enabling it to generate accurate maps conditioned on
+an inaccurate initial map. The training is done purely in the functional space, and thus is highly efficient. At inference time, we
+use the pointwise map corresponding to the current functional map as guidance during the diffusion process. The guidance can
+additionally encourage different functional map objectives, such as orthogonality and commutativity with the Laplace-Beltrami
+operator. We show that our approach is competitive with state-of-the-art methods of map refinement and that guided diffusion
+models provide a promising pathway to functional map processing.*
+
 ## MDNF: Multi-Diffusion-Nets for Neural Fields on Meshes
 
 ![Teaser image](./docs/text2mesh_ninja_4ex.jpg)
