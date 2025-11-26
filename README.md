@@ -17,18 +17,6 @@ mesh modification. We demonstrate the effectiveness of our approach through its 
 synthetic RGB functions, UV texture coordinates, and vertex normals, illustrating different challenges. To validate our method,
 we compare its performance against two alternatives, showcasing the advantages of our multi-resolution architecture.*
 
-
-Abstract: *We propose a novel framework for representing neural fields on triangle meshes that is multi-resolution across both spatial
-and frequency domains. Inspired by the Neural Fourier Filter Bank (NFFB), our architecture decomposes the spatial and
-frequency domains by associating finer spatial resolution levels with higher frequency bands, while coarser resolutions are
-mapped to lower frequencies. To achieve geometry-aware spatial decomposition we leverage multiple DiffusionNet components,
-each associated with a different spatial resolution level. Subsequently, we apply a Fourier feature mapping to encourage finer
-resolution levels to be associated with higher frequencies. The final signal is composed in a wavelet-inspired manner using
-a sine-activated MLP, aggregating higher-frequency signals on top of lower-frequency ones. Our architecture attains high
-accuracy in learning complex neural fields and is robust to discontinuities, exponential scale variations of the target field, and
-mesh modification. We demonstrate the effectiveness of our approach through its application to diverse neural fields, such as
-synthetic RGB functions, UV texture coordinates, and vertex normals, illustrating different challenges. To validate our method,
-we compare its performance against two alternatives, showcasing the advantages of our multi-resolution architecture.*
 ---
 
 ## Getting Started
