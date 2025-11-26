@@ -1,0 +1,19 @@
+{
+  "encoding": {
+    "vertex_feat_dim": 2,
+    "n_block": 2,
+    "diffusion_hidden": 256,
+    "base_diffusion": 0.002,
+    "exp_diffusion": 0.8,
+    "base_sigma": 10.0,
+    "exp_sigma": 1.2
+  },
+  "SIREN": {
+    "dims" : [256, 256, 256, 256, 256],
+    "w0": 220
+  },
+  "Backbone": {
+    "dims": [64, 64],
+    "activation": "relu"
+  }
+}

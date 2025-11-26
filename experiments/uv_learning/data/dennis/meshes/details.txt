@@ -1,0 +1,3 @@
+obj: rp_dennis_posed_004_30k_mich
+mtl: rp_dennis_posed_004_30k_mich.obj
+tex: rp_dennis_posed_004_dif_8k
