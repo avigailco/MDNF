@@ -1,0 +1,1 @@
+You can download the dennis mesh data from here: https://renderpeople.com/free-3d-people/ (Posed People Classic)
